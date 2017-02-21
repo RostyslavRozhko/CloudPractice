@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="944cee72-97d8-443b-92b4-c3efe848c2f9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/google/training/helloworld/HelloClass.java" afterPath="$PROJECT_DIR$/src/main/java/com/google/training/helloworld/HelloClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/google/training/helloworld/HelloWorldEndpoints.java" afterPath="$PROJECT_DIR$/src/main/java/com/google/training/helloworld/HelloWorldEndpoints.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/hello.js" afterPath="$PROJECT_DIR$/src/main/webapp/hello.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/appengine-endpoints/WEB-INF/helloworldendpoints-v1-rest.discovery" afterPath="$PROJECT_DIR$/target/generated-sources/appengine-endpoints/WEB-INF/helloworldendpoints-v1-rest.discovery" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/generated-sources/appengine-endpoints/WEB-INF/helloworldendpoints-v1-rpc.discovery" afterPath="$PROJECT_DIR$/target/generated-sources/appengine-endpoints/WEB-INF/helloworldendpoints-v1-rpc.discovery" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/helloworld-1.0-SNAPSHOT/WEB-INF/helloworldendpoints-v1-rest.discovery" afterPath="$PROJECT_DIR$/target/helloworld-1.0-SNAPSHOT/WEB-INF/helloworldendpoints-v1-rest.discovery" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/helloworld-1.0-SNAPSHOT/WEB-INF/helloworldendpoints-v1-rpc.discovery" afterPath="$PROJECT_DIR$/target/helloworld-1.0-SNAPSHOT/WEB-INF/helloworldendpoints-v1-rpc.discovery" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/helloworld-1.0-SNAPSHOT/hello.js" afterPath="$PROJECT_DIR$/target/helloworld-1.0-SNAPSHOT/hello.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/helloworld-1.0-SNAPSHOT/index.html" afterPath="$PROJECT_DIR$/target/helloworld-1.0-SNAPSHOT/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,7 +48,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloClass.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HelloClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/google/training/helloworld/HelloClass.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
@@ -82,12 +71,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -144,6 +133,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/hello.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/google/training/helloworld/HelloClass.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -698,12 +688,12 @@
       <updated>1487665167221</updated>
       <workItem from="1487665172606" duration="1594000" />
       <workItem from="1487666941027" duration="2008000" />
-      <workItem from="1487684474595" duration="1091000" />
+      <workItem from="1487684474595" duration="1348000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4693000" />
+    <option name="totallyTimeSpent" value="4950000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="24" width="1307" height="744" extended-state="6" />
@@ -881,17 +871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/google/training/helloworld/HelloClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -900,6 +879,17 @@
             <element signature="e#287#288#0" expanded="true" />
             <element signature="e#343#344#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
