@@ -1,6 +1,6 @@
 {
  "kind": "discovery#rpcDescription",
- "etag": "\"ODRTh3xaRR64wpeXJSlF33HMN-0/UdLtVSvyq3K0ur180nNX_puyX7I\"",
+ "etag": "\"ODRTh3xaRR64wpeXJSlF33HMN-0/7L3BeM1xuIfgDQYLIvgM-Zb3seI\"",
  "discoveryVersion": "v1",
  "id": "helloworldendpoints:v1",
  "name": "helloworldendpoints",
@@ -77,9 +77,28 @@
      "type": "string"
     }
    }
+  },
+  "YoutubeVideo": {
+   "id": "YoutubeVideo",
+   "type": "object",
+   "properties": {
+    "url": {
+     "type": "string"
+    }
+   }
   }
  },
  "methods": {
+  "helloworldendpoints.getVideoUrl": {
+   "id": "helloworldendpoints.getVideoUrl",
+   "allowGet": true,
+   "returns": {
+    "$ref": "YoutubeVideo"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
   "helloworldendpoints.greetByPeriod": {
    "id": "helloworldendpoints.greetByPeriod",
    "allowGet": true,

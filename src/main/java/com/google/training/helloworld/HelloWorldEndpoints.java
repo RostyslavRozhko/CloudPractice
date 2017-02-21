@@ -23,6 +23,10 @@ public class HelloWorldEndpoints {
         return new HelloClass();
     }
 
+    @ApiMethod(name = "getVideoUrl", path = "getVideoUrl", httpMethod = HttpMethod.GET)
+
+    public YoutubeVideo getVideoUrl() { return new YoutubeVideo();}
+
     // Declare this method as a method available externally through Endpoints
     @ApiMethod(name = "sayHelloByName", path = "sayHelloByName",
             httpMethod = HttpMethod.GET)

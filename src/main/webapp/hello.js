@@ -59,6 +59,16 @@ function enableButtons () {
 
     // Update the button label now that the button is active
     btn.value="Click me for a period greeting";
+
+    btn = document.getElementById("input_greet_by_name_and_period");
+    btn.onclick=function(){greetByPeriod();};
+
+    // Update the button label now that the button is active
+    btn.value="Click me for a period greeting";
+
+    btnVideo = document.getElementById("surprise");
+    btnVideo.onclick=function(){getVideoUrl();};
+
 }
 
 /*
@@ -89,6 +99,16 @@ function greetByName () {
 }
 
 // Function from presentation
+function getVideoUrl(){
+    var request = gapi.client.helloworldendpoints.getVideoUrl();
+    request.execute(videoCallback);
+}
+
+function videoCallback(response) {
+    window.location.assign(response.url+"?rel=0&autoplay=1")
+}
+
+// My own function
 function greetByPeriod(){
     var name = document.getElementById("name_field").value;
     var period = document.getElementById("period_field").value;
